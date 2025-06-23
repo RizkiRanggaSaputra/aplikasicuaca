@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #b3e5fc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #01579b;
+  margin-bottom: 20px;
+}
+
+.cuaca-box {
+  background-color: #e1f5fe;
+  border: 2px solid #0288d1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.cuaca-box h2 {
+  margin-top: 0;
+  color: #0277bd;
+}
+
+.cuaca, .suhu, .kelembapan {
+  font-size: 18px;
+  color: #333;
+  margin: 8px 0;
+}
